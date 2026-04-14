@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meeting Note</title>
+    <link rel="icon" href="favicon.ico">
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <h1>Meeting Note</h1>
+        <nav>
+          <ul>
+            <li><a href="#attendance">Attendance List</a></li>
+            <li><a href="#agenda">Agenda</a></li>
+            <li><a href="#unfinished-business">Unfinished Business </a></li>
+            <li><a href="#new-business">New Business</a></li>
+            <li><a href="#extras">Questions, Comments & Concerns</a></li>
+            <li><a href="#designs">Designs and Architecture</a></li>
+            <li><a href="#recordings">Recordings</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#form">Form</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <hr>
+
+    <main>
+        <section>
+            <h2>Topic of Meeting - Checkups</h2>
+            <h3>April 9th, 2026</h3>
+        </section>
+      
+
+      <br>
+
+      <div id="attendance">
+        <h2>Attendance List</h2>
+        <ol>
+          <li>Member 1</li>
+          <li>Member 2</li>
+          <li>Member 3</li>
+          <li>Member 4</li>
+          <li>Member 5</li>
+        </ol>
+      </div>
+
+      <div id="agenda">
+        <h2>Agenda</h2>
+        <ul>
+          <li><b>Review</b> action items from last meeting</li>
+          <li>
+            <i>Project</i> status updates from <strong>each</strong> team member
+          </li>
+          <li>Discuss <strong>blockers</strong> and technical challenges</li>
+          <li>Review <em>pull requests</em> and code changes</li>
+          <li>Plan tasks and assign responsibilities for next sprint</li>
+          <li>Set date and time for next meeting</li>
+        </ul>
+      </div>
+
+      <div id="unfinished-business">
+        <h2>Unfinished Business</h2>
+        <ol>
+            <li>Unit tests for the authentication module are still <strong>pending review</strong></li>
+            <li>Design mockups for the dashboard page <strong>were not</strong> finalized, will be revisited in this meeting</li>
+            <li><em>Member 4</em> has not yet set up their local development environment</li>
+        </ol>
+      </div>
+
+    <div id="new-business">
+        <h2>New Business</h2>
+        <ol>
+            <li>Discuss timeline for upcoming feature release and set deadlines</li>
+            <li>Review and merge open pull requests before end of sprint</li>
+            <li>Assign tasks for the next two week sprint</li>
+        </ol>
+    </div>
+
+    <div id="extras">
+        <h2>Questions, Comments & Concerns</h2>
+        <ul>
+            <li>Member 1 asked whether we should migrate to a new testing framework before the next release</li>
+            <li>Member 3 raised a concern about the current deployment pipeline being too slow and suggested looking into caching solutions</li>
+        </ul>
+    </div>
+
+
+    <div id="designs">
+        <h2>Diagrams</h2>
+        <span><img src="https://plus.unsplash.com/premium_photo-1690302394250-f3e7626a01b0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="team members drawing out code design" width="400"></span>
+        <span><img src="https://images.unsplash.com/photo-1573166364266-356ef04ae798?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="more coding diagram" width="400"></span>
+        <span><img src="https://images.unsplash.com/photo-1573496528736-cf543ba57104?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="last diagram" width="400"></span>
+    </div>
+
+    <section id="recordings">
+        <h2>Recordings</h2>
+
+        <h3>Audio Recording</h3>
+        <audio controls>
+            <source src="pretend-meeting-audio.m4a" type="audio/mp4">
+            Your browser does not support the audio element.
+        </audio>
+
+        <h3>Video Recording</h3>
+        <video controls width="500">
+            <source src="pretend-meeting-video.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </section>
+
+    <section id="faq">
+        <h2>Meeting Notes FAQ</h2>
+        <details>
+            <summary>What was the main goal of this meeting?</summary>
+            <p>The main goal was to check in on each team member's progress, resolve blockers, and plan tasks for the upcoming sprint.</p>
+        </details>
+        <details>
+            <summary>When is the next meeting?</summary>
+            <p>The next meeting will be scheduled by the end of this sprint. Watch for a calendar invite from the team lead.</p>
+        </details>
+    </section>
+
+    <div id="form">
+        <h2>Post-Meeting Feedback</h2>
+        <form>
+            <fieldset>
+                <legend>Your Information</legend>
+                <p>
+                    <label>Name: <input type="text" placeholder="Your name"></label>
+                </p>
+                <p>
+                    <label>Meeting Date: <input type="date"></label>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Meeting Feedback</legend>
+                <p>
+                    <label for="comments">Comments:</label><br>
+                    <textarea id="comments" rows="4" cols="40" placeholder="Share your thoughts about the meeting..."></textarea>
+                </p>
+                <p>
+                    How would you rate this meeting?
+                    <label><input type="radio" name="rating" value="great"> Great</label>
+                    <label><input type="radio" name="rating" value="okay"> Okay</label>
+                    <label><input type="radio" name="rating" value="poor"> Poor</label>
+                </p>
+                <p>
+                    <label><input type="checkbox"> I found this meeting productive</label>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferences</legend>
+                <p>
+                    <label for="meeting-type">Preferred meeting format:
+                        <select id="meeting-type">
+                            <option value="">-- Select --</option>
+                            <option value="in-person">In-person</option>
+                            <option value="remote">Remote</option>
+                            <option value="hybrid">Hybrid</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label for="next-topic">Suggest a topic for next meeting:
+                        <input type="text" id="next-topic" list="topic-suggestions" placeholder="Type or choose a topic">
+                    </label>
+                    <datalist id="topic-suggestions">
+                        <option value="Sprint retrospective">
+                        <option value="Code review walkthrough">
+                        <option value="Architecture planning">
+                        <option value="Bug triage">
+                    </datalist>
+                </p>
+            </fieldset>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </div>
+
+    </main>
+    <hr>
+
+    <footer>
+        <p>&copy; coded by christine</p>
+    </footer>
+  </body>
+</html>
